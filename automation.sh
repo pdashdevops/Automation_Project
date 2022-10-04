@@ -49,7 +49,7 @@ fi
 
 #Add the cron job
 
-if [ -f "/etc/cron.d/automation" ];
+if [ -f "/etc/cron.d/automation" ]
 then
         echo "Automation script in place for Daily 00:00 hrs"
 else
